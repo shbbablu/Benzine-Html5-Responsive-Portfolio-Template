@@ -1,0 +1,207 @@
+
+
+/* ============================================================== /*
+ *            Extra small devices (phones, less than 768px)
+/* ============================================================== */
+
+@media (max-width: 766px) {
+    /*============ Mouse icon style ================= */
+    .mouse-icon {
+        display: none;
+    }
+    /*============ Navbar style ================= */
+    .navbar-inverse .navbar-brand,
+    .navbar-inverse .navbar-nav > li > a {
+        padding: 10px 15px;
+    }
+    /*============ Portfolio-Style ================= */
+    #portfolio .portfolio-container #da-thumbs li {
+        width: 100%;
+    }
+    .portfolio-item {
+        min-height: 10px;
+    }
+    #filter li {
+        margin-bottom: 20px;
+    }
+    /*============ progress bar ================= */
+    .skill {
+        margin-bottom: -50px;
+        padding-top: 50px;
+    }
+    .skills-right .progress .lead {
+        left: 0;
+        position: absolute;
+    }
+    .skills-right .progress-bar .prg-hex {
+        float: right;
+        left: -5px;
+    }
+    .skills-right .progress .progress-bar {
+        float: left;
+    }
+    .skills-right .progress .fadeInRight {
+        -webkit-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+    }
+    /*============Fan Facts Style================= */
+    .count-wrap i {
+        font-size: 40px;
+    }
+    .count-wrap h3 {
+        font-size: 30px;
+        line-height: 16px;
+    }
+    .count-wrap p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .count-wrap > div {
+        margin-bottom: 40px;
+    }
+
+}
+
+/* ========================================== /*
+ *            Landscape Mobile
+/* ========================================== */
+
+@media only screen and (min-width: 545px) and (max-width: 767px) {
+    /*============ Hero text ================= */
+    .hero-sub h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .hero-sub .rotation {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    /*============ Feature Style ================= */
+    .feature .feature-res {
+        width: 49%;
+        float: left;
+        margin-bottom: 25px;
+    }
+    /*============ Service style ================= */
+    .single-serve {
+        max-width: 80%;
+        margin: 30px auto;
+        display: block;
+    }
+    /*============ Portfolio-Style ================= */
+    #portfolio .portfolio-container #da-thumbs li {
+        width: 50%;
+    }
+    #portfolio .portfolio-container #da-thumbs li {
+        width: 50%;
+    }
+    /*============ Pricing Style ================= */
+    #pricing .pricing-single .pricing-table {
+        max-width: 70%;
+        margin: 30px auto;
+    }
+    /*============ Team-member Style ================= */
+    .team-section .team-member {
+        width: 48%;
+        float: left;
+        margin: 3px;
+    }
+}
+
+/* ========================================== /*
+ *            For max 545 px
+/* ========================================== */
+
+@media (max-width: 544px) {
+    /*============ Hero text ================= */
+    .hero-sub h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .hero-sub .rotation {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    /*============ Feature Style ================= */
+    .feature .feature-single {
+        width: 80%;
+        margin: 30px auto;
+    }
+    /*============ Pricing Style ================= */
+    #pricing .pricing-single .pricing-table {
+        max-width: 90%;
+        margin: 30px auto;
+    }
+    /*============Contact-us Style ================= */
+    .con-info .con-text {
+        margin: 15px 12px;
+        float: left;
+    }
+    .con-info .con-text h5 {
+        text-transform: none;
+        display: inline-block;
+        font-size: 15px;
+        color: #993F4E;
+    }
+    .hex6 {
+        width: 40px;
+        height: 40px;
+    }
+    .contact-info .hexagons i {
+        position: absolute;
+        z-index: 11;
+        font-size: 25px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 21%;
+    }
+    /*============ Map Style ================= */
+    .gmap3 {
+        height: 200px
+    }
+
+}
+
+/* ======================================================== /*
+ *            Small devices (tablets, 768px and up)
+/* ======================================================== */
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    /*============ Menu Style ================= */
+    .navbar-inverse .navbar-brand {
+        padding: 10px 3px;
+        height: 60px;
+    }
+    .navbar-inverse .navbar-nav > li > a{
+        font-size: 11px;
+        padding: 20px 10px;
+        font-weight: 500;
+    }
+    .navbar-right {
+        float: right!important;
+        margin-right: -32px;
+    }
+    /*============ Portfolio Style ================= */
+    .portfolio-item {
+        min-height: 162px;
+    }
+    #portfolio .portfolio-container #da-thumbs li {
+        width: 50%;
+    }
+}
+
+
+/* ======================================================== /*
+ *           Medium devices (desktops, 992px and up)
+/* ======================================================== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*============ Portfolio Style ================= */
+    .portfolio-item {
+        min-height: 150px;
+    }
+}
+
